@@ -1,0 +1,121 @@
+html,body{
+    background-color: white;
+    height: 1.8;
+}
+/*ทำให้รูปอยู่ที่เดิม*/
+.bgimg-1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.bgimg-1{
+    background-image: url("https://www.krungsricard.com/KrungsriCreditCard/media/html/Herb-1.jpg");
+    min-height: 400px;
+    opacity: 75%;
+    position: relative;
+}
+@media only screen and (max-device-width: 1600px) {
+.bgimg-1{
+    background-attachment: scroll;
+    min-height: 400px;
+    }
+}
+/*color text*/
+.big-text{
+    color: white;
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif; /*google font ไทย*/
+    position: relative;
+}
+.mid-text{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Mitr', sans-serif; /*google font ไทย*/
+}
+.mid-text1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Mitr', sans-serif; /*google font ไทย*/
+}
+.s-text{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Mitr', sans-serif; /*google font ไทย*/
+}
+.s1-text{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Mitr', sans-serif; /*google font ไทย*/
+}
+/*text center*/
+.centered { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.box-bg{
+    background-color: #678f4f;
+}
+.padding-top{
+    padding-top: 70px;
+}
+.padding-bottom{
+    padding-bottom: 50px;
+}
+.row{
+    padding-top: 1%;;
+}
+.col{
+    padding-top: 1%;
+}
+.box { 
+    width: auto; 
+    height: auto;
+    background:  #74ac74; 
+}
+.box2 {
+    padding-top: 5%;
+    width: auto; 
+    height: auto;
+    background:  #a3c596;
+    padding-bottom: 5%
+}
+.box3 {
+    padding-top: 3%;
+    width: auto; 
+    height: auto;
+    background:  #a3c596;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.picture{
+    width: 200px;
+    height: 200px;
+}
+.padding{
+    padding: 1%;
+}
+.picture2{
+    width: 400px;
+    height: 400px;
+}
+.margin{
+    margin-right:100px;
+    margin-left:150px;
+}
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #bacda9;
+    color: white;
+}
+.bgcolor{
+    background-color: #FFFEF2;
+}
